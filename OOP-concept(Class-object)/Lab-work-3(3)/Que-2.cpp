@@ -11,7 +11,7 @@ class Cafe{
 	
 	public:
 		
-		Cafe(){};
+		Cafe(){};				// Default constructor...!!
 		
 		void setCafe_data(int id, string name, string ctp, int crt, string loc, int cest, int stf)
 		{
@@ -35,6 +35,8 @@ class Cafe{
 			cout << "Staff Quantity :- " << cafe_Stfquan << endl;
 		}
 		
+		
+		~Cafe(){}					// Using Destructor...
 };
 
 int main()
